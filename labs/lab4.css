@@ -1,0 +1,39 @@
+
+body {
+  background-color: yellow;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caixa {
+  background-color: gray;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px black;
+  text-align: center;
+  width: 320px;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#mensagem {
+  font-weight: bold;
+  min-height: 24px;
+}

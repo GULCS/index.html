@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+}
+
+.pagina {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 100px;
+  border: 2px solid purple;
+  background-color: bisque;
+  height: 300px;
+  color: green;
+  width: 100%; 
+}
+
+.parte_azul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  height: 100px;
+  font-size: 50px;
+  gap: 200px;
+  color: red;
+  width: 100%; 
+}
+
+.class {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 50px;
+  color: purple;
+  width: 100%; 
+  margin-top: 20px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center; 
+  color: black;
+  font-size: 100px;
+  margin: 40px 0;
+  width: 100%;
+}
+
+.img, .video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+table {
+  margin: 30px auto; 
+  font-size: 60px;
+  border: 2px solid red; 
+}
+
+th {
+  color: red;
+}
+
+.consulta {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 40px;
+  color: black;
+  background-color: yellow;
+  width: 800px;
+  height: auto;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  margin: 20px auto; 
+}
+
+.sites {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.sites p {
+  margin: 0 0 10px 0;
+  font-weight: bold;
+}
+
+.sites ul {
+  margin: 0;
+  padding-left: 30px;
+}
+
+.sites li {
+  margin-bottom: 8px;
+}
+
+.sites a {
+  color: red;
+  text-decoration: none;
+}
+
+ .contatos_table {
+        margin: auto;
+        border-collapse: collapse;
+        border: 2px dashed red;
+        font-size:50px;
+        }
+
+.rodape {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 50px;
+  background-color: bisque;
+  height: 300px;
+  color: black;
+  width: 100%; 
+}
